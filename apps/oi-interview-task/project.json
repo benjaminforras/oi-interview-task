@@ -25,7 +25,7 @@
         "styles": ["apps/oi-interview-task/src/styles.scss"],
         "scripts": [],
         "server": "apps/oi-interview-task/src/main.server.ts",
-        "prerender": true,
+        "prerender": false,
         "ssr": {
           "entry": "apps/oi-interview-task/server.ts"
         }

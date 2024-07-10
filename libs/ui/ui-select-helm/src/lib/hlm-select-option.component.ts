@@ -16,14 +16,6 @@ import type { ClassValue } from 'clsx';
   },
   template: `
     <ng-content />
-    <span
-      class="absolute left-2 flex h-3.5 w-3.5 items-center justify-center rtl:left-auto rtl:right-2"
-      [attr.dir]="_brnSelectOption.dir()"
-      [attr.data-state]="this._brnSelectOption.checkedState()">
-      @if (this._brnSelectOption.selected()) {
-        <hlm-icon aria-hidden="true" name="lucideCheck" />
-      }
-    </span>
   `,
   imports: [HlmIconComponent],
 })
